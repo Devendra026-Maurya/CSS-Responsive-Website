@@ -1,0 +1,161 @@
+ * {
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: white;
+ }
+
+ /* Navbar */
+ nav {
+     position: relative;
+     width: 100%;
+     z-index: 1000;
+     background-color: white;
+     box-shadow: 0 5px 20px rgba(190, 190, 190, 0.15);
+
+
+ }
+
+ #navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 60px;
+ }
+
+ #navbar-links {
+     display: flex;
+     align-items: center;
+ }
+
+ #navbar-links ul {
+     list-style: none;
+     display: flex;
+ }
+
+ #navbar-links li {
+     margin-left: 40px;
+ }
+
+ #navbar-links a {
+     text-decoration: none;
+     color: black;
+     font-weight: 550;
+     font-size: 18px;
+ }
+
+ #navbar-links ul a:hover {
+     color: rgb(65, 105, 255);
+ }
+
+ .btn {
+     background-color: blue;
+     color: white;
+     border: none;
+     font-size: 16px;
+     font-weight: 500;
+     transition: 0.3s ease-in-out;
+     margin-left: 60px;
+     padding: 8px 15px;
+     border-radius: 8px;
+ }
+
+ .btn:hover {
+     background-color: darkblue;
+ }
+
+ /* Login Section */
+ .login {
+     margin: 50px auto;
+     width: 320px;
+     border: 1px solid gray;
+     box-shadow: 3px 3px 10px lightgray;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 10px;
+ }
+
+ /* Footer */
+ .footer {
+     background: rgb(123, 116, 116);
+     color: #ccc;
+     font-family: "Poppins", sans-serif;
+     padding: 60px 10%;
+     margin-top: 100px;
+ }
+
+ .footer-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 40px;
+ }
+
+ .footer-logo {
+     width: 180px;
+     margin-bottom: 15px;
+ }
+
+ .footer-col h3 {
+     color: #fff;
+     margin-bottom: 15px;
+     font-size: 1.2rem;
+ }
+
+ .footer-col p,
+ .footer-col ul {
+     font-size: 0.95rem;
+     line-height: 1.6;
+ }
+
+ .footer-links ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ .footer-links a {
+     color: #ccc;
+     text-decoration: none;
+     transition: color 0.3s ease;
+ }
+
+ .footer-links a:hover {
+     color: #ffcc00;
+ }
+
+ .social-icons {
+     display: flex;
+     gap: 12px;
+     margin-top: 10px;
+ }
+
+ .social-icon {
+     color: #ccc;
+     background: #222;
+     padding: 10px;
+     border-radius: 50%;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.3s ease;
+ }
+
+ .social-icon:hover {
+     background: #ffcc00;
+     color: #000;
+     transform: translateY(-3px);
+ }
+
+ .footer-bottom {
+     text-align: center;
+     border-top: 1px solid #333;
+     margin-top: 40px;
+     padding-top: 15px;
+     font-size: 0.9rem;
+ }
+
+ .footer-bottom span {
+     color: #ffcc00;
+ }
